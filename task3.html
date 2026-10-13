@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form</title>
+<style>
+table {
+    background-color: lightblue;
+    border: black;
+    margin: auto;
+}
+caption {
+    font-size:25px;
+    font-style:bold;
+    color: red;
+    padding: 20px;
+}
+th, td {
+    border:2px solid black;
+    padding: 10px;
+}
+th {
+    text-align: right;
+    font-size: 20px;
+}
+input, select {
+    padding: 5px;
+}
+</style>
+</head>
+<body>
+<form>
+<table>
+<caption>Continental Hotel Reservation Form</caption>
+<tr>
+<th>Name</th>
+<td><input type="text" placeholder="Enter your name"></td>
+</tr>
+<tr>
+<th>eMail</th>
+<td><input type="email" placeholder="Enter your email "></td></tr>
+<tr>
+<th>Mobile No</th>
+<td><input type="text" placeholder="Enter your cell number"></td></tr>
+<tr>
+<th>Arrival Time</th>
+<td><input type="text" placeholder="Enter your arrival time"></td></tr>
+<tr>
+<th>Departure</th>
+<td><input type=" "> <input type="date"></td></tr>
+<tr>
+<th>Room Type</th>
+<td>
+<input type="radio" name="room">Single
+<input type="radio" name="room">Double
+<br>
+<input type="radio" name="room">Presidential Suite</td>
+</tr>
+<tr>
+<th>Preferences</th>
+<td>
+<input type="checkbox">Non-Smoking<br>
+<input type="checkbox">Internet<br>
+<input type="checkbox">Firm Mattress
+</td>
+</tr>
+<tr>
+<th>Mode of Payment</th>
+<td>
+<input type="checkbox">Cash
+<input type="checkbox">Check
+<br>
+<input type="checkbox">Credit Card
+<select>
+<option>Select Card</option>
+<option>Visa</option>
+<option>MasterCard</option>
+</select></td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Send Data">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
